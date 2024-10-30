@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: grey;
+            text-align: center;
+            color:aqua;
+        }
+        nav{
+            background-color: lightblue;
+            padding-block: 8px;
+        }
+        nav a{
+            color: black;
+            margin: 10px;
+        }
+        .section{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .about{
+            background-color: aliceblue;
+            padding: 20px;
+            margin-inline: 8px;
+            
+        }
+        .skill{
+            margin-top: 10px;
+            margin-inline: 8px;
+            background-color:aliceblue;
+            padding: 20px;
+        }
+        .container{
+            width: 100%;
+            background-color:aliceblue;
+        }
+        .skills{
+            text-align: right;
+            padding-right: 10px;
+            background-color: green;
+        }
+        .html{
+            width: 60%;
+        }
+        .css{
+            width: 50%; 
+        }
+        .bootstrap{
+            width: 30%;
+        }
+        .javascript{
+            width:05%;
+        }
+        .php{
+            width:0%;
+        }
+        .project{
+            margin-top: 10px;
+            background-color:antiquewhite;
+            padding: 10px;
+        }
+        .project h4{
+            margin-left: 20px;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .card{
+            background-color: aliceblue;
+            margin-inline: 20px;
+            padding:20px;
+            
+        }
+        img{
+            width: 100%;
+            
+        }
+        .contact{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .row1{
+            display: flex;
+            justify-content: space-between;
+            margin-inline: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My portfolio</h1>
+        <h4>MOUNISHWARAN</h4>
+        <p>web developer</p>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#skill">skillset</a>
+            <a href="#project">projects</a>
+            <a href="#contact">contact me</a>
+        </nav>
+    </header>
+    <div class="section">
+        <div class="about" id="about">
+            <h4>hello,</h4>
+            <p>i'm mounishwaran, pursuing B.Tech-IT 2nd year in Kongu Engineering College, Erode.Basically i'm doing web development using html, css, bootstrap and JavaScript.</p>
+        </div>
+        <div class="skill" id="skill">
+            <h4>SKILL SET</h4>
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">60%</div>
+            </div>
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">50%</div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="container">
+                <div class="skills bootstrap">30%</div>
+            </div>
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills javascript">05%</div>
+            </div>
+            <p>php</p>
+            <div class="container">
+                <div class="skills php">0%</div>
+            </div>
+        </div>
+    </div>
+    <div class="project" id="project">
+        <h4>Projects</h4>
+        <div class="container1">
+            <div class="row">
+                <div class="card">
+                    <div class="col-md-4">
+                        <img src="carousel2.png">
+                        <div class="card-body">
+                            <h3>Project 1</h3>
+                            <p>view more...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col-md-4">
+                        <img src="carousel2.png">
+                        <div class="card-body">
+                            <h3>Project 2</h3>
+                            <p>view more...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col-md-4">
+                        <img src="carousel2.png">
+                        <div class="card-body">
+                            <h3>Project 3</h3>
+                            <p>view more...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h3>For contact:</h3>
+        <div class="row1">
+            <div class="c1">
+                <p>Telephone no: </p>
+                <p>0123-985 9834</p>
+            </div>
+            <div  class="c2">
+                <p>mobile no: </p>
+                <p>8489524091</p>
+            </div>
+            <div class="c3">
+                <p>email id:</p>
+                <p> mounishwarana.23it@kongu.edu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
